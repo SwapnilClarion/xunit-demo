@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My_Login_application" timestamp="2020-07-29T16:42:48" time="16.349" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Login application"/>
+      <property name="capabilities" value="chrome.83_0_4103_61.windows"/>
+      <property name="file" value=".\test\specs\example.e2e.ts"/>
+    </properties>
+    <testcase classname="chrome.83_0_4103_61.windows.My_Login_application" name="should_login_with_valid_credentials" time="16.347">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/2896afaa0f5e8b2ce45f60d541fc82be/element - {"using":"css selector","value":"#men-link"}
+RESULT: {"using":"css selector","value":"#men-link"}
+COMMAND: POST /session/2896afaa0f5e8b2ce45f60d541fc82be/element/9e0d352e-fd67-4efb-8238-e1b9bc78f0bc/click - {}
+RESULT: {}
+COMMAND: POST /session/2896afaa0f5e8b2ce45f60d541fc82be/element - {"using":"css selector","value":"#wrap > div > div.span12.browsing-column.browsing-center-column.tablet-landscape-full-fluid-width > section > div.browsing-product-content > div > figure:nth-child(1)"}
+RESULT: {"using":"css selector","value":"#wrap > div > div.span12.browsing-column.browsing-center-column.tablet-landscape-full-fluid-width > section > div.browsing-product-content > div > figure:nth-child(1)"}
+COMMAND: POST /session/2896afaa0f5e8b2ce45f60d541fc82be/elements - {"using":"css selector","value":"#wrap > div > div.span12.browsing-column.browsing-center-column.tablet-landscape-full-fluid-width > section > div.browsing-product-content > div > figure:nth-child(1)"}
+RESULT: {"using":"css selector","value":"#wrap > div > div.span12.browsing-column.browsing-center-column.tablet-landscape-full-fluid-width > section > div.browsing-product-content > div > figure:nth-child(1)"}
+COMMAND: POST /session/2896afaa0f5e8b2ce45f60d541fc82be/elements - {"using":"css selector","value":"#wrap > div > div.span12.browsing-column.browsing-center-column.tablet-landscape-full-fluid-width > section > div.browsing-product-content > div > figure:nth-child(1)"}
+RESULT: {"using":"css selector","value":"#wrap > div > div.span12.browsing-column.browsing-center-column.tablet-landscape-full-fluid-width > section > div.browsing-product-content > div > figure:nth-child(1)"}
+COMMAND: POST /session/2896afaa0f5e8b2ce45f60d541fc82be/elements - {"using":"css selector","value":"#wrap > div > div.span12.browsing-column.browsing-center-column.tablet-landscape-full-fluid-width > section > div.browsing-product-content > div > figure:nth-child(1)"}
+RESULT: {"using":"css selector","value":"#wrap > div > div.span12.browsing-column.browsing-center-column.tablet-landscape-full-fluid-width > section > div.browsing-product-content > div > figure:nth-child(1)"}
+COMMAND: POST /session/2896afaa0f5e8b2ce45f60d541fc82be/element - {"using":"css selector","value":"#wrap > div > div.span12.browsing-column.browsing-center-column.tablet-landscape-full-fluid-width > section > div.browsing-product-content > div > figure:nth-child(1)"}
+RESULT: {"using":"css selector","value":"#wrap > div > div.span12.browsing-column.browsing-center-column.tablet-landscape-full-fluid-width > section > div.browsing-product-content > div > figure:nth-child(1)"}
+COMMAND: POST /session/2896afaa0f5e8b2ce45f60d541fc82be/element/458a3b73-0761-4269-a839-6d6c2a4944e3/click - {}
+RESULT: {}
+COMMAND: DELETE /session/2896afaa0f5e8b2ce45f60d541fc82be - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
