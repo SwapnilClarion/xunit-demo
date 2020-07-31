@@ -137,12 +137,12 @@ exports.config = {
           }
         ],
       
-        ['allure', {
-            outputDir: './reports/allure-results/',
-            disableWebdriverStepsReporting: true,
-            disableWebdriverScreenshotsReporting: false,
-          }
-        ],
+        // ['allure', {
+        //     outputDir: './reports/allure-results/',
+        //     disableWebdriverStepsReporting: true,
+        //     disableWebdriverScreenshotsReporting: false,
+        //   }
+        // ],
     ],
 
 
