@@ -8,7 +8,6 @@ pipeline {
         bat 'git pull'
         bat 'npm install'
         bat 'npm test'
-        bat 'npm run junit-report'
       }
     }
 
