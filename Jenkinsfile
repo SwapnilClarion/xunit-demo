@@ -14,7 +14,6 @@ pipeline {
   post {
     always {
       junit 'reports/junit-results/*.xml'
-      sh "sudo chown -R jenkins: ${env.WORKSPACE}"
     }
 
   }
