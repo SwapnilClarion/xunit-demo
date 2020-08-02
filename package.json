@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/wdio wdio.conf.js",
-    "junit-report": "node_modules/.bin/xunit-viewer --results=./reports/junit-results  --output=./reports/junit-results.html ",
+    "junit-report": "node_modules/.bin/xunit-viewer --results=./reports/junit-results/  --output=./reports/junit-results/junit-results.html ",
     "allure:report": "node_modules/.bin/allure generate --clean ./reports/allure-results -o ./reports/allure-report "
   },
   "keywords": [],
