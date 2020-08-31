@@ -26,7 +26,7 @@
     "@wdio/sync": "^5.23.0",
     "allure-commandline": "^2.13.0",
     "chai-webdriverio": "^1.0.0",
-    "chromedriver": "^83.0.1",
+    "chromedriver": "^85",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.11.0",
